@@ -1,0 +1,13 @@
+body {
+			margin: 0;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, 1px);
+			grid-template-rows: repeat(auto-fill, 1px);
+			height: 100vh;
+			overflow: hidden;
+		}
+		div {
+			width: 1px;
+			height: 1px;
+			background-color: black;
+		}
